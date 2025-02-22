@@ -1,5 +1,12 @@
 import React from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import longcouple1 from './Asset/longcouple1.jpg';
+import longcouple2 from './Asset/longcouple2.jpg';
+import longcouple3 from './Asset/longcouple3.jpeg';
+import Family from './Asset/Family.jpeg';
+import Adventure from './Asset/Adventure.jpg';
+import whitecouple from './Asset/whitecouple.jpg';
+
 
 type GalleryProps = {
   id?: string;
@@ -8,32 +15,32 @@ type GalleryProps = {
 const Gallery: React.FC<GalleryProps> = ({ id }) => {
   const images = [
     {
-      url: 'https://images.unsplash.com/photo-1529634806268-95f85e73e3c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      url: Family,
       title: 'First Date',
       description: 'Where it all began - Our first coffee date'
     },
     {
-      url: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      url: Adventure,
       title: 'The Proposal',
       description: 'A magical evening under the stars'
     },
     {
-      url: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      url: whitecouple,
       title: 'Our Wedding Day',
       description: 'The day we said "I do"'
     },
     {
-      url: 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      url: longcouple1,
       title: 'Growing Family',
       description: 'Welcoming our beautiful children'
     },
     {
-      url: 'https://images.unsplash.com/photo-1474552226712-ac0f0961a954?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      url: longcouple2,
       title: 'Adventures Together',
       description: 'Exploring the world hand in hand'
     },
     {
-      url: 'https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      url: longcouple3,
       title: 'Family Traditions',
       description: 'Creating memories that last a lifetime'
     }
