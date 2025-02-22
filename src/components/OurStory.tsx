@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, Book } from 'lucide-react';
 import teeshirt from './Asset/teeshirt.jpg';
 import wedding from './Asset/wedding.jpg';
+import inthenow from './Asset/inthenow.jpg';
 
 const OurStory = () => {
   const [currentPage, setCurrentPage] = useState(0);
@@ -28,7 +29,7 @@ const OurStory = () => {
       content: {
         bride: "Here we are 10 years and 3 boys later. We are still one in all things. God has been the anchor that holds our union. We continue to fight our for our love to thrive and prosper. We are thankful for where we are and where God plans to place us in the future. We are a work in progress, perfectly complimenting each other's flaws, we are a team, and our biggest goal is to always have each other's back.",
         groom: "And now, look at us, my baby, we’ve come a long way from that first meeting, haven’t we? Surrounded by the goodness of God, the gift of love that keeps giving, we are still smiling, still loving, and still walking this beautiful journey together. What started as a spark of curiosity has turned into the most amazing love story. Every day, I’m reminded of how lucky I am to have you by my side. All that I saw in you then has only deepened over time, and my heart is fuller than I ever imagined. You still give me panic attacks, lol...It's time to stop forming superwoman, I have won you hands down in many feats (Baba for the Boys for a reason...lol), but it doesn't matter because those trophies, I won for you, My Queen. You now have four knights in shinny armor standing on guard to defend you and shower you with love and respect. Thank you for being the Queen of my heart and the Queen of Boys of the Tunde Fadeyi dynasty. You’re my heart, my forever, and I can’t wait to see what comes next for us. Let's continue to walk and love each other with all our imperfections and inconsistence, Ìfé wa á da lẹ, Amin.",
-        image: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+        image: inthenow
       }
     },
     {
