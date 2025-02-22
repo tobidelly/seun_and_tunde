@@ -14,7 +14,7 @@ const Contact: React.FC<ContactProps> = ({ id }) => {
             Contact Us
           </h2>
           <p className="text-gray-600">
-            Have questions? We're here to help!
+            Have questions? Reach out, let's help!
           </p>
         </div>
 
@@ -22,19 +22,19 @@ const Contact: React.FC<ContactProps> = ({ id }) => {
           <div className="text-center p-6">
             <Phone className="mx-auto mb-4 text-rose-600" size={32} />
             <h3 className="text-xl font-semibold text-gray-900 mb-2">Call Us</h3>
-            <p className="text-gray-600">+1 (555) 123-4567</p>
+            <p className="text-gray-600">+1 (720) 245-5590</p>
           </div>
 
           <div className="text-center p-6">
             <Mail className="mx-auto mb-4 text-rose-600" size={32} />
             <h3 className="text-xl font-semibold text-gray-900 mb-2">Email</h3>
-            <p className="text-gray-600">celebration@sarahjohn.com</p>
+            <p className="text-gray-600">grace.isanangel2@gmail.com</p>
           </div>
 
           <div className="text-center p-6">
             <MessageCircle className="mx-auto mb-4 text-rose-600" size={32} />
             <h3 className="text-xl font-semibold text-gray-900 mb-2">Text</h3>
-            <p className="text-gray-600">+1 (555) 987-6543</p>
+            <p className="text-gray-600">+1 (720) 245-5590</p>
           </div>
         </div>
       </div>
