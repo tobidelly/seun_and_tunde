@@ -15,6 +15,7 @@ import TravelPack from './components/TravelPack';
 import Lodgings from './components/Lodgings';
 import DressCode from './components/DressCode';
 import ProgramCalendar from './components/ProgramCalendar';
+import 'leaflet/dist/leaflet.css';
 
 function App() {
   return (

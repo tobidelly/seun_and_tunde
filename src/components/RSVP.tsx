@@ -26,7 +26,7 @@ const RSVP: React.FC<{ id: string }> = ({ id }) => {
       <div className="max-w-4xl mx-auto px-6 lg:px-8 bg-white shadow-lg rounded-xl p-10 border border-gray-200 relative">
         <div className="text-center mb-12">
           <h2 className="text-5xl font-dancing text-rose-600 mb-4">You're Invited!</h2>
-          <p className="text-gray-700">Kindly RSVP by August 15, 2024</p>
+          <p className="text-gray-700">Kindly RSVP by May 18, 2025</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6">

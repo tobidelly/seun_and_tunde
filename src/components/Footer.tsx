@@ -76,14 +76,14 @@ const Footer = () => {
           </div>
           
           {/* Wedding Names */}
-          <h2 className="text-3xl font-dancing mb-4">Sarah & John</h2>
+          <h2 className="text-3xl font-dancing mb-4">Seun & Tunde</h2>
           <p className="text-gray-200 mb-6">
             Thank you for being part of our special day
           </p>
 
           {/* Copyright Notice */}
           <p className="text-sm text-gray-300">
-            © 2024 Sarah & John's Vow Renewal. All rights reserved.
+            © 2025 Seun & Tunde's Vow Renewal. All rights reserved.
           </p>
         </div>
       </div>
