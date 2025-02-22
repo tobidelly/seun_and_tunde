@@ -1,13 +1,14 @@
 import React from 'react';
 import { Heart } from 'lucide-react';
+import imageC from './Asset/imageC.jpeg';
+import imageA from './Asset/imageA.jpeg';
+import imageB from './Asset/imageB.jpg';
+import imageD from './Asset/imageD.jpg';
+import imageE from './Asset/imageE.jpg';
 
 const Hero = () => {
   const images = [
-    './Asset/logo.JPEG',
-    './Asset/imageA.JPEG',
-    './Asset/imageB.JPEG',
-    'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80',
-    'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80'
+    imageC, imageA, imageB, imageD, imageE
   ];
 
   const [currentImage, setCurrentImage] = React.useState(0);
@@ -43,7 +44,7 @@ const Hero = () => {
       <div className="relative h-full flex items-center justify-center text-center">
         <div className="max-w-4xl px-4">
           <h1 className="text-5xl md:text-7xl font-dancing text-white mb-6">
-            Sarah & John
+            Seun & Tunde
           </h1>
           <div className="flex items-center justify-center gap-4 text-white mb-8">
             <div className="h-px w-12 bg-white/70" />
