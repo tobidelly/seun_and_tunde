@@ -58,7 +58,7 @@ const Hero = () => {
             Join us as we renew our vows
           </p>
           <p className="text-2xl md:text-3xl text-white mt-8 font-dancing">
-            September 15, 2024
+            May 18, 2025
           </p>
         </div>
       </div>
