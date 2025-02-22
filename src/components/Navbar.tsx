@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import logo from './Asset/logo.png';
 
 const navItems = [
   { label: "Our Story", href: "#our-story" },
@@ -14,11 +15,7 @@ const Navbar: React.FC = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      setIsScrolled(window.scrollY > 50);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -28,17 +25,20 @@ const Navbar: React.FC = () => {
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-white shadow-md text-black"
-          : "bg-transparent text-white"
+        isScrolled ? "bg-white shadow-md text-black" : "bg-transparent text-white"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-2">
-            <img src="/logo.png" alt="Logo" className="h-12 w-15" />
-            <a href="#" className="text-2xl font-dancing">
+            <img src={logo} alt="Logo" className="h-12 w-15" />
+            <a
+              href="#"
+              className={`text-2xl font-dancing transition-colors duration-300 ${
+                isScrolled ? "text-rose-600" : "text-white"
+              }`}
+            >
               Seun & Tunde
             </a>
           </div>
@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
                 key={item.label}
                 href={item.href}
                 className={`transition-colors duration-200 ${
-                  isScrolled ? "text-gray-700 hover:text-rose-600" : "text-white hover:text-rose-400"
+                  isScrolled ? "text-black hover:text-rose-600" : "text-white hover:text-rose-400"
                 }`}
               >
                 {item.label}
@@ -62,7 +62,7 @@ const Navbar: React.FC = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className={isScrolled ? "text-gray-700" : "text-white"}
+              className={isScrolled ? "text-black" : "text-white"}
               aria-label="Toggle menu"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -72,13 +72,17 @@ const Navbar: React.FC = () => {
 
         {/* Mobile Navigation Menu */}
         {isOpen && (
-          <div className={`md:hidden shadow-md rounded-lg py-2 ${isScrolled ? "bg-white" : "bg-gray-900"}`}>
+          <div
+            className={`md:hidden shadow-md rounded-lg py-2 ${
+              isScrolled ? "bg-white" : "bg-gray-900"
+            }`}
+          >
             {navItems.map((item) => (
               <a
                 key={item.label}
                 href={item.href}
                 className={`block px-4 py-2 transition-colors duration-200 ${
-                  isScrolled ? "text-gray-700 hover:text-rose-600" : "text-white hover:text-rose-400"
+                  isScrolled ? "text-black hover:text-rose-600" : "text-white hover:text-rose-400"
                 }`}
                 onClick={() => setIsOpen(false)}
               >
