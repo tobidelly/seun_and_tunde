@@ -7,30 +7,30 @@ interface LodgingsProps {
 const lodgings = [
   {
     name: 'Courtyard by Marriott, Littleton CO',
-    image: 'https://source.unsplash.com/400x300/?hotel',
+    image: 'https://cache.marriott.com/content/dam/marriott-renditions/DENLT/denlt-guestroom-0004-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1140px:*',
   },
   {
     name: 'Residence Inn by Marriott, Littleton CO',
-    image: 'https://source.unsplash.com/400x300/?luxury-hotel',
+    image: 'https://cache.marriott.com/content/dam/marriott-renditions/DENRT/denrt-suite-0008-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1140px:*',
   },
   {
     name: 'Staybridge Suites, Highlands Ranch, CO',
-    image: 'https://source.unsplash.com/400x300/?suite',
+    image: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/234525545.jpg?k=d54bb02e4c6aeb63f54c61bd0375f1b2d194f3a1c2670fb179c5460c813a0e4d&o=',
   },
 ];
 
 const restaurants = [
   {
     name: 'Panera',
-    image: 'https://source.unsplash.com/400x300/?restaurant',
+    image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/4d/88/9a/exterior.jpg?w=1000&h=-1&s=1',
   },
   {
     name: 'Snooze',
-    image: 'https://source.unsplash.com/400x300/?breakfast',
+    image: 'https://www.denverpost.com/wp-content/uploads/2023/11/TDP-Z-SNOOZE-01.jpg?w=862',
   },
   {
     name: 'STK in Downtown Denver',
-    image: 'https://source.unsplash.com/400x300/?fine-dining',
+    image: 'https://cdn.vox-cdn.com/thumbor/X4J3z_-myZsQCJmAmVwwBsnj0_0=/1200x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/7809629/STK_8312e.0.jpg',
   },
 ];
 
