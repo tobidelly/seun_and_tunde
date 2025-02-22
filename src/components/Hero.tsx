@@ -3,9 +3,9 @@ import { Heart } from 'lucide-react';
 
 const Hero = () => {
   const images = [
-    'https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-1.2',
-    'https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80',
-    'https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80',
+    './Asset/logo.JPEG',
+    './Asset/imageA.JPEG',
+    './Asset/imageB.JPEG',
     'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80',
     'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80'
   ];
