@@ -16,20 +16,20 @@ const WeddingInfo = () => {
           <div className="text-center p-6 bg-white rounded-lg shadow-sm">
             <Calendar className="mx-auto mb-4 text-rose-600" size={32} />
             <h3 className="text-xl font-semibold text-gray-900 mb-2">Date</h3>
-            <p className="text-gray-600">September 15, 2024</p>
+            <p className="text-gray-600">May 18, 2025</p>
           </div>
 
           <div className="text-center p-6 bg-white rounded-lg shadow-sm">
             <Clock className="mx-auto mb-4 text-rose-600" size={32} />
             <h3 className="text-xl font-semibold text-gray-900 mb-2">Time</h3>
-            <p className="text-gray-600">4:00 PM - 10:00 PM</p>
+            <p className="text-gray-600">10:00 AM MST Prompt</p>
           </div>
 
           <div className="text-center p-6 bg-white rounded-lg shadow-sm">
             <MapPin className="mx-auto mb-4 text-rose-600" size={32} />
             <h3 className="text-xl font-semibold text-gray-900 mb-2">Venue</h3>
-            <p className="text-gray-600">The Grand Plaza</p>
-            <p className="text-gray-600">123 Love Street, Romance City</p>
+            <p className="text-gray-600">Arrowhead Golf Course</p>
+            <p className="text-gray-600">10850 Sundown Trail, Littleton, CO 80125</p>
           </div>
         </div>
       </div>
