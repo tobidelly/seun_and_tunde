@@ -1,13 +1,14 @@
 import React from 'react';
 import { MapPin } from 'lucide-react';
 import { motion } from 'framer-motion';
+import Arrowhead from './Asset/Arrowhead.jpg';
 
 interface LocateVenueProps {
   id?: string;
 }
 
 const LocateVenue: React.FC<LocateVenueProps> = ({ id }) => {
-  const venueAddress = "123 Love Street, Romance City, RC 12345";
+  const venueAddress = "10850 Sundown Trail, Littleton, CO 80125";
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(venueAddress)}`;
 
   return (
@@ -19,14 +20,14 @@ const LocateVenue: React.FC<LocateVenueProps> = ({ id }) => {
           </h2>
           <div className="flex items-center justify-center gap-2 text-rose-600">
             <MapPin size={20} />
-            <p>The Grand Plaza</p>
+            <p>Arrowhead Golf Course</p>
           </div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              src={Arrowhead}
               alt="Venue"
               className="rounded-lg shadow-lg w-full h-96 object-cover"
             />
@@ -37,8 +38,8 @@ const LocateVenue: React.FC<LocateVenueProps> = ({ id }) => {
                 The Perfect Setting
               </h3>
               <p className="text-gray-600">
-                The Grand Plaza offers a stunning backdrop for our vow renewal
-                ceremony. With its elegant architecture and beautiful gardens, it's
+                The Arrowhead Golf Course offers a stunning backdrop for our vow renewal
+                ceremony. With its elegant design, lofty mountain view and beautiful gardens, it's
                 the perfect place to celebrate our love.
               </p>
             </div>
