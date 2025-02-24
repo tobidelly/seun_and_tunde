@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Gift, CreditCard, X, Download } from 'lucide-react';
 import { motion } from 'framer-motion';
-import Zelle from './Asset/Zelle.JPEG';
+import Zelle from './Asset/Zelle.jpeg';
 
 interface GiftRegistryProps {
   id?: string;
