@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export default function WhatsAppChat() {
   const [showTooltip, setShowTooltip] = useState(false);
-  const whatsappNumber = '1234567890'; // Replace with actual WhatsApp number
+  const whatsappNumber = '+1(720)245-5590';
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
 
   return (
