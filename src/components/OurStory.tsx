@@ -3,6 +3,7 @@ import { ChevronLeft, ChevronRight, Book } from 'lucide-react';
 import teeshirt from './Asset/teeshirt.jpg';
 import wedding from './Asset/wedding.jpg';
 import inthenow from './Asset/inthenow.jpg';
+import Futureholds from './Asset/Futureholds.jpg';
 
 const OurStory = () => {
   const [currentPage, setCurrentPage] = useState(0);
@@ -35,9 +36,9 @@ const OurStory = () => {
     {
       title: 'Chapter 4: What the Future Holds',
       content: {
-        bride: "As we look to the future, my heart fills with excitement. We dream of traveling the world, teaching art to children in different countries, and maybe opening that tech-art fusion gallery we've been planning...",
-        groom: "The future with Sarah is bright and full of possibilities. We're planning to start our own creative technology workshop for kids, combining both our passions. And maybe, just maybe, we'll finally get that beach house we've been dreaming about...",
-        image: "https://images.unsplash.com/photo-1474552226712-ac0f0961a954?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+        bride: "The future? Honestly, we can’t predict it, but we know one thing for sure—we want to experience it with with God as our compass. Whatever comes our way, we are confident we’ll face it hand in hand because together, we can face the world. We are so grateful for everything we’ve shared, and we optimistic  for the moments still ahead of us.",
+        groom: "The future? Honestly, we can’t predict it, but we know one thing for sure—we want to experience it with with God as our compass. Whatever comes our way, we are confident we’ll face it hand in hand because together, we can face the world. We are so grateful for everything we’ve shared, and we optimistic  for the moments still ahead of us.",
+        image: Futureholds
       }
     }
   ];

@@ -14,8 +14,8 @@ const HowToGetThere: React.FC<HowToGetThereProps> = ({ id }) => {
 
   // Custom marker icon
   const customIcon = L.icon({
-    iconUrl: mapicon, // Use iconUrl instead of src
-    iconSize: [38, 38], // Adjust size as needed
+    iconUrl: mapicon,
+    iconSize: [38, 38],
   });
 
   useEffect(() => {
@@ -48,7 +48,7 @@ const HowToGetThere: React.FC<HowToGetThereProps> = ({ id }) => {
               <Train className="mx-auto mb-4 text-rose-600" size={32} />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">By Train</h3>
               <p className="text-gray-600">
-                Central Station is 10 minutes away. Take the Line 3 bus directly to the venue.
+                Central Station is few minutes away. Take any of the line bus directly to the venue.
               </p>
             </div>
 
@@ -56,7 +56,7 @@ const HowToGetThere: React.FC<HowToGetThereProps> = ({ id }) => {
               <Plane className="mx-auto mb-4 text-rose-600" size={32} />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">By Air</h3>
               <p className="text-gray-600">
-                International Airport is 30 minutes away. Airport shuttles available to recommended hotels.
+                Denver International Airport is 30 minutes away. Airport shuttles available to recommended hotels.
               </p>
             </div>
           </div>
