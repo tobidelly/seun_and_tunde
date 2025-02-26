@@ -1,5 +1,6 @@
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 import emailjs from '@emailjs/browser';
+import { motion } from 'framer-motion';
 
 const RSVPForm: React.FC = () => {
   // Define the form data state
@@ -131,14 +132,17 @@ const RSVPForm: React.FC = () => {
         </div>
 
         {/* Submit Button */}
-        <div className="text-center mt-8">
-          <button
-            type="submit"
-            className="bg-green-700 text-white font-semibold px-8 py-3 rounded-full shadow-md hover:bg-rose-700 transition duration-300"
-          >
-            Submit RSVP
-          </button>
-        </div>
+    {/* Submit Button */}
+<div className="text-center mt-8">
+  <motion.button
+    type="submit"
+    className="bg-green-700 text-white font-semibold px-8 py-3 rounded-full shadow-md hover:bg-rose-700 transition duration-300"
+    whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}
+  >
+    Submit RSVP
+  </motion.button>
+</div>
       </form>
 
       {/* Submission Feedback */}
