@@ -16,23 +16,23 @@ const Gallery: React.FC<GalleryProps> = ({ id }) => {
   const images = [
     {
       url: Family,
-      title: 'First Date',
-      description: 'Where it all began - Our first coffee date'
+      title: 'Love & Forever',
+      description: 'The Lord is on our side'
     },
     {
       url: Adventure,
-      title: 'The Proposal',
-      description: 'A magical evening under the stars'
+      title: 'Love & Forever',
+      description: 'Who has said a thing that the Lord has not commanded concerning us'
     },
     {
       url: whitecouple,
-      title: 'Our Wedding Day',
-      description: 'The day we said "I do"'
+      title: 'Together Forever',
+      description: '10 years thankful, forever more to go'
     },
     {
       url: longcouple1,
-      title: 'Growing Family',
-      description: 'Welcoming our beautiful children'
+      title: 'Together Forever',
+      description: '10 years thankful, forever more to go'
     },
     {
       url: longcouple2,
