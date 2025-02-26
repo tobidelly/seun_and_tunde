@@ -21,11 +21,11 @@ const DressCode: React.FC<DressCodeProps> = ({ id }) => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
-          <div className="relative h-[500px] rounded-lg overflow-hidden shadow-lg">
+          <div className="relative h-[700px] rounded-lg overflow-hidden shadow-lg">
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{
-                backgroundImage: "url('https://i.pinimg.com/736x/fd/de/68/fdde68d0213183f41edfc97aa20f8140.jpg')",
+                backgroundImage: "url('https://img.fantaskycdn.com/8df2a003399371517a867e07481b20ab_1440x.jpg')",
               }}
             ></div>
             <div className="absolute inset-0 bg-emerald-700 bg-opacity-60 flex flex-col justify-center items-center text-white">
@@ -34,7 +34,7 @@ const DressCode: React.FC<DressCodeProps> = ({ id }) => {
             </div>
           </div>
 
-          <div className="relative h-[500px] rounded-lg overflow-hidden shadow-lg">
+          <div className="relative h-[700px] rounded-lg overflow-hidden shadow-lg">
             <div
               className="absolute inset-0 bg-cover bg-center"
               style={{
