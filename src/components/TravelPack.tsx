@@ -39,7 +39,7 @@ const TravelPack: React.FC<{ id: string }> = ({ id }) => {
           <ul className="list-disc list-inside text-gray-700 space-y-2">
             <li>A warm <strong>sweater</strong> for chilly mornings and evenings</li>
             <li>Wool <strong>gloves, scarves, and socks</strong> for extra warmth</li>
-            <li>Comfortable walking shoes for exploring</li>
+            <li>Comfortable walking shoes, water bottle and chapstick for exploring</li>
             <li>A waterproof jacket in case of unexpected rain</li>
             <li>Sunglasses & sunscreen for the bright sun</li>
           </ul>
