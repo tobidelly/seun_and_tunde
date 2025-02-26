@@ -48,7 +48,7 @@ const HowToGetThere: React.FC<HowToGetThereProps> = ({ id }) => {
               <Train className="mx-auto mb-4 text-rose-600" size={32} />
               <h3 className="text-xl font-semibold text-gray-900 mb-2">By Train</h3>
               <p className="text-gray-600">
-                Central Station is few minutes away. Take any of the line bus directly to the venue.
+                Central Station is few minutes away. Take any of the line bus directly to the venue. Don't join the party bus if you are autistic or have color and light sensitivity. It can be overly stimulating.
               </p>
             </div>
 
