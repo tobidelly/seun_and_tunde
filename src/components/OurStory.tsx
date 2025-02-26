@@ -3,7 +3,8 @@ import { ChevronLeft, ChevronRight, Book } from 'lucide-react';
 import teeshirt from './Asset/teeshirt.jpg';
 import wedding from './Asset/wedding.jpg';
 import inthenow from './Asset/inthenow.jpg';
-import Futureholds from './Asset/Futureholds.jpg';
+/* import Futureholds from './Asset/Futureholds.jpg'; */
+import Family from './Asset/Family.jpeg';
 
 const OurStory = () => {
   const [currentPage, setCurrentPage] = useState(0);
@@ -38,7 +39,7 @@ const OurStory = () => {
       content: {
         bride: "The future? Honestly, we can’t predict it, but we know one thing for sure—we want to experience it with with God as our compass. Whatever comes our way, we are confident we’ll face it hand in hand because together, we can face the world. We are so grateful for everything we’ve shared, and we optimistic  for the moments still ahead of us.",
         groom: "The future? Honestly, we can’t predict it, but we know one thing for sure—we want to experience it with with God as our compass. Whatever comes our way, we are confident we’ll face it hand in hand because together, we can face the world. We are so grateful for everything we’ve shared, and we optimistic  for the moments still ahead of us.",
-        image: Futureholds
+        image: Family
       }
     }
   ];
@@ -52,7 +53,7 @@ const OurStory = () => {
   };
 
   return (
-    <section id="our-story" className="py-20 bg-rose-50">
+    <section id="our-story" className="py-20 bg-rose-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-dancing text-rose-600 mb-4">Our Story</h2>
@@ -68,7 +69,7 @@ const OurStory = () => {
               onClick={prevPage}
               disabled={currentPage === 0}
               className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-200 ${
-                currentPage === 0 ? 'text-gray-400 cursor-not-allowed' : 'text-rose-600 hover:bg-rose-100'
+                currentPage === 0 ? 'text-gray-400 cursor-not-allowed' : 'text-rose-600 hover:bg-rose-50'
               }`}
             >
               <ChevronLeft size={20} />
@@ -78,7 +79,7 @@ const OurStory = () => {
               onClick={nextPage}
               disabled={currentPage === chapters.length - 1}
               className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-200 ${
-                currentPage === chapters.length - 1 ? 'text-gray-400 cursor-not-allowed' : 'text-rose-600 hover:bg-rose-100'
+                currentPage === chapters.length - 1 ? 'text-gray-400 cursor-not-allowed' : 'text-rose-600 hover:bg-rose-50'
               }`}
             >
               Next Chapter
@@ -86,7 +87,7 @@ const OurStory = () => {
             </button>
           </div>
 
-          <div className="bg-white rounded-lg shadow-2xl overflow-hidden">
+          <div className="bg-green-100 rounded-lg shadow-2xl overflow-hidden">
             <div className="relative h-[600px] overflow-hidden">
               <img
                 src={chapters[currentPage].content.image}
