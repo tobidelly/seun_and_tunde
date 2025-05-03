@@ -11,7 +11,7 @@ const GiftRegistry: React.FC<GiftRegistryProps> = ({ id }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleViewRegistryClick = () => {
-    const registryUrl = 'https://www.amazon.com/s?k=wedding+gifts&crid=34S87IN4GIACB&sprefix=%2Caps%2C404&ref=nb_sb_noss_2';
+    const registryUrl = 'https://www.amazon.com/registries/gl/guest-view/150RNORNGE7F1';
     window.open(registryUrl, '_blank');
   };
 
